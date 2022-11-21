@@ -1,0 +1,36 @@
+img{
+    width:80%;
+}
+
+.animation{
+    margin:50px auto;
+}
+.animation:hover{
+    transform: scale(1.5); 
+
+}
+.item{
+    display:grid;
+    grid-template-columns: repeat(4, 0fr);
+    grid-gap: 3em;
+    margin: 50px auto;
+    justify-content: center;
+    padding:1em;
+}
+
+.card{
+    border-radius: 2px solid #ffb945;
+}
+
+@media screen and (max-width:900px){
+    .item{
+        grid-template-columns: 0fr;
+    }
+
+}
+.btn{
+    background-color: #ffb945;
+    display: flexbox;
+    justify-content: center;
+    margin: 55px;
+}
